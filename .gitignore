@@ -1,18 +1,8 @@
-# Ignore compiled binary files
-*.o
-*.out
-*.exe
-*.so
-*.dll
+#ignore all files
+*
 
-# Ignore executable files with no extension (common in Linux/Unix)
-output
-a.out
+#unignore all files with extension
+!*.*
 
-# Ignore core dumps
-core
-core.*
-
-# Ignore build directories (if any)
-/build/
-/bin/
+# unignore all folders
+!*/
